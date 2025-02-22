@@ -52,7 +52,7 @@
             if (result < 100) {
                 window.location.href = 'sad.html';
             } else {
-                window.location.href = 'happy.html';
+                window.location.href = 'Happy.html';
             }
         }
 
