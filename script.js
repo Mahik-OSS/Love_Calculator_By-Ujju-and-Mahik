@@ -49,10 +49,13 @@
             const result = processNames(name1, name2);
             
             // Navigate based on result
-            if (result < 100) {
+             if (result < 100 && result>50) {
                 window.location.href = 'sad.html';
-            } else {
+            } else if (result >=100){
                 window.location.href = 'Happy.html';
+            }
+            else{
+                window.location.href = 'blank.html'
             }
         }
 
