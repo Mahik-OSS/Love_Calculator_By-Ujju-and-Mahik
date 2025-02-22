@@ -1,0 +1,94 @@
+*{
+    font-family: cursive;
+}
+body{
+    background-color: pink;
+}
+
+
+span::before{
+    content: "Love calculator";
+    font-size: 50px;
+    animation: animate  7s;
+    padding-left: 10px;
+    color: purple;
+    position: relative;
+    top: 200px;
+    left: 470px;
+
+}
+@keyframes animate{
+    0% {
+        content: "Love Calculator";
+        font-size: 32px;
+        animation: fade;
+    }
+
+    50% {
+        content: "Hi, I am your love companion";
+        font-size: 25px;
+    }
+    75% {
+        content:"YOU ARE , WITHOUT A DOUBT";
+        font-size: 25px;
+    }
+    80% {
+        content: "AFTER YOU MET ME.";
+        font-size: 25px;
+    }
+}
+#dil{
+    position: relative;
+    top: -100px;
+    left: 350px;
+}
+#aage{
+    width: 100px;
+    height: 50px;
+    border-radius: 7px;
+    border: 1px solid black;
+    font-size: 15px;
+    position: relative;
+    top: -100px;
+}
+.section1{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 9px;
+    border: 3px solid black;
+    position: relative;
+    left: 450px;
+
+}
+#gender{
+    position: relative;
+    left: 40px;
+    top: 7px;
+}
+#gender2{
+    position: relative;
+    left: 180px;
+    top: -45px;
+}
+.nameuser{
+    position: relative;
+    left: 40px;
+    top: -60px;
+
+}
+.diltry{
+    position: relative;
+    left: 40px;
+    top: -60px;
+}
+#dekho{
+    width: 100px;
+    height: 50px;
+    border-radius: 9px;
+    border: 2px solid black;
+    font-size: 20px;
+    background-color: yellow;
+    position: relative;
+    left: 140px;
+}
